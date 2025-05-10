@@ -1,2 +1,2 @@
-install Ren`Py
-Resetting your Ren`Py Path
+install Ren'Py
+Resetting your Ren'Py Path
