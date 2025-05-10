@@ -422,6 +422,7 @@ label next_day_after_decline_low_aff:
     # 타임슬립 이벤트가 발생하더라도 인하와 직접적인 연결고리가 약할 수 있음.
     # 순애보다는 타임슬립 미스터리 쪽에 치중되거나,
     # 인하는 그냥 지나가는 조연으로 남을 가능성이 높음.
+    $ complete_ending("e6")
     return # 일단 여기서는 엔딩 처리 (거절 엔딩)
     # TODO: 이 루트도 루프 발생 시키고 배드 엔딩으로 연결 가능
 
@@ -1015,6 +1016,7 @@ label looping_nightmare_ending:
     cn "(이 여름은... 끝나지 않는다.)"
     cn "(영원히...)"
 
+    
     $ complete_ending("LoopingNightmareEnding") # 반복 엔딩 달성 업적/플래그
     return # 게임 종료 또는 엔딩 크레딧
 

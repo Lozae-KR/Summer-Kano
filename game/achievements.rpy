@@ -26,7 +26,7 @@ init python:
         "e3": {"name": '"작명가"', "description": "자기 이름을 지었습니다.",  "image": "images/ending/test.png", "completed": False},
         "e4": {"name": '"네 번째 업적"', "description": "게임을 시작했습니다.",  "image": "images/ending/test.png", "completed": False},
         "e5": {"name": '"다섯 번째 업적"', "description": "게임을 시작했습니다.",  "image": "images/ending/test.png", "completed": False},
-        "e6": {"name": '"여섯 번째 업적"', "description": "과제를 같이하기로 한 형의 별명이 '잠수함'이었다는 사실을 잊고있었다.",  "image": "images/ending/test.png", "completed": False},
+        "e6": {"name": '"잠수함"', "description": "과제를 같이하기로 한 형의 별명이 '잠수함'이었다는 사실을 잊고있었다.",  "image": "images/ending/test.png", "completed": False},
         "e7": {"name": '"일곱 번째 업적"', "description": "게임을 시작했습니다.",  "image": "images/ending/test.png", "completed": False},
         "e8": {"name": '"여덟 번째 업적"', "description": "게임을 시작했습니다.",  "image": "images/ending/test.png", "completed": False},
         "e8": {"name": '"아홉 번째 업적"', "description": "게임을 시작했습니다.",  "image": "images/ending/test.png", "completed": False},
