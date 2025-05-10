@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 720, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+  File "game/script.rpy", line 720, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 720, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 720, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.7.25031702
+여름, 그녀 (Summer, Kanojo) 24.0729
+Thu May  8 23:12:35 2025

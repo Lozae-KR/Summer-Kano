@@ -1,0 +1,573 @@
+2025-05-08 14:03:34 UTC
+Windows-10-10.0.19045
+Ren'Py 8.3.7.25031702
+
+Early init took 0.06s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.38s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 141, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인하는 방법
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 141, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인하는 방법
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+
+While running game code:
+  File "game/script.rpy", line 141, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인하는 방법
+  File "game/script.rpy", line 141, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인하는 방법
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+Resetting cache.
+Early init took 89.20s
+Loading error handling took 0.03s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 161: Indentation mismatch.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 103.37s
+Loading error handling took 0.03s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 161: Indentation mismatch.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 144.02s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\doyeo\\AppData\\Roaming/RenPy/backups\\Summer_Kano - 복사본':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 142, in script
+    if renpy.get_last_say() == "누구세요?":
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 142, in <module>
+    if renpy.get_last_say() == "누구세요?":
+AttributeError: module 'renpy.exports' has no attribute 'get_last_say'
+
+While running game code:
+  File "game/script.rpy", line 142, in script
+    if renpy.get_last_say() == "누구세요?":
+  File "game/script.rpy", line 142, in <module>
+    if renpy.get_last_say() == "누구세요?":
+AttributeError: module 'renpy.exports' has no attribute 'get_last_say'
+
+Full traceback:
+  File "game/script.rpy", line 142, in script
+    if renpy.get_last_say() == "누구세요?":
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 142, in <module>
+    if renpy.get_last_say() == "누구세요?":
+AttributeError: module 'renpy.exports' has no attribute 'get_last_say'
+
+While running game code:
+  File "game/script.rpy", line 142, in script
+    if renpy.get_last_say() == "누구세요?":
+  File "game/script.rpy", line 142, in <module>
+    if renpy.get_last_say() == "누구세요?":
+AttributeError: module 'renpy.exports' has no attribute 'get_last_say'
+Resetting cache.
+Early init took 250.00s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 143: choice menuitem expects a non-empty block.
+    "누구세요?":
+            ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 290.79s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\doyeo\\AppData\\Roaming/RenPy/backups\\Summer_Kano - 복사본':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 697, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 697, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+
+While running game code:
+  File "game/script.rpy", line 697, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+  File "game/script.rpy", line 697, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+Resetting cache.
+Early init took 436.87s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 697: end of line expected.
+    menu:: 
+         ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 444.71s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\doyeo\\AppData\\Roaming/RenPy/backups\\Summer_Kano - 복사본':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 771, in script
+    with fadeout # 화면이 암전되면서 리셋되는 느낌 연출
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1367, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 771, in <module>
+    with fadeout # 화면이 암전되면서 리셋되는 느낌 연출
+NameError: name 'fadeout' is not defined
+
+While running game code:
+  File "game/script.rpy", line 771, in script
+    with fadeout # 화면이 암전되면서 리셋되는 느낌 연출
+  File "game/script.rpy", line 771, in <module>
+    with fadeout # 화면이 암전되면서 리셋되는 느낌 연출
+NameError: name 'fadeout' is not defined
+Resetting cache.
+Early init took 484.67s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\doyeo\\AppData\\Roaming/RenPy/backups\\Summer_Kano - 복사본':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 486.68s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 720, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\doyeo\Downloads\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 720, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+
+While running game code:
+  File "game/script.rpy", line 720, in script
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+  File "game/script.rpy", line 720, in <module>
+    if renpy.get_version() >= (7, 0, 0): # Ren'Py 7 이상에서 이전 선택지 확인
+AttributeError: module 'renpy.exports' has no attribute 'get_version'
+Resetting cache.
+Early init took 566.23s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\doyeo\\AppData\\Roaming/RenPy/backups\\Summer_Kano - 복사본':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.40s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 617.69s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.39s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 572.47'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1484, 835) drawable=(1484, 835)
+Maximum texture size: 4096x4096
