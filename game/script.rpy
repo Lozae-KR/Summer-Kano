@@ -164,6 +164,7 @@ label choice_1_result:
     na "동기라고? 반갑다 동기야!"
     na "근데 아직도 학교를 다니네? 다들 졸업하지 않았나? 너도 군대 갔다 왔어?"
 
+    hide a_in
     show m_in at Pright # 인하 약간 삐친 표정
     i "아니거든~!"
     i "개인 사정 때문에 1학년 때 휴학했다가 이번에 복학했거든~"
@@ -220,7 +221,7 @@ label choice_1_result:
     # if player_name == "":
     #     $ player_name = "최민호"
     # define m = Character(player_name, color="#000000") # start에서 정의
-
+    hide m_in
     show s_in at Pright # 인하 웃는 표정 다시 등장
 
     cn "(아무리 생각해봐도 누군지 모르겠다)" # 이 대사는 사실 선택지 후 바로 나와야 함. 위로 올리는게 좋음. 여기서는 그냥 진행.
@@ -234,7 +235,7 @@ label choice_1_result:
     # si "근데 너 이름이 뭐였지..?"
 
     # 일러스트 이후는 바로 이름 확인 대화로 연결
-    m "아 제 이름은 [player_name](이)야."
+    m "아 내 이름은 [player_name](이)야."
     show s_in at Pright # 인하 웃는 표정
 
     i "아...! 맞다! [player_name]! 기억났어!"
@@ -445,9 +446,10 @@ label choice_2_accept: # "인하와 함께한다" 선택 시
     m "[player_name] : 아, 응! 당연하지." # 번호 언급은 생략
     cn "(인하와 번호를 교환했다.)" # 지문으로 처리
 
+    hide s_in
     show a_in at Pleft # 인하가 휴대폰에 저장하는 듯한 표정
     i "오키오키! 나도 저장해놨다! 인하! 잘 부탁해!" # 인하 이름 말해줌
-
+    hide a_in
     show s_in at Pleft # 다시 밝은 표정
     i "인하야! 잘 부탁해 [player_name]!" # 인하 대사 변경 (스크립트 기반)
 
@@ -755,6 +757,7 @@ label project_topic_decided:
         cn "(세상이 일렁이는 느낌... 주변 소리가 멀어지고, 매미 소리가 귀를 찢을 듯 크게 들린다.)" # 여름 느낌 + 효과음 묘사
 
         m "[player_name] : 으...윽...!"
+        hide s_in
         show a_in # 인하 당황한 표정
 
         i "[player_name]?! 괜찮아?! 갑자기 왜 그래?! 더위 먹었어?!" # 여름 느낌 추가
